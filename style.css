@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f0e17;
+    color: #fffffe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.box {
+    background: #1b1929;
+    width: 30%;
+    height: 45%;
+    padding: 2vw;   
+    border-radius: 2vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.check-mark {
+    font-size: 2em;
+    color: #ff8906;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.check-mark:hover {
+    font-size: 2.4em;
+}
+
+.heading {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.text {
+    text-align: justify;
+    color: #a7a9be;
+    font-weight: 500;
+}
+
+.link-text {
+    margin-top: 2vw;
+    text-decoration: underline;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+}
+
+.num-button {
+    font-family: 'Source Code Pro', sans-serif;
+    color: #a7a9be;
+    background: #575864;
+    width: 3vh;
+    height: 3vh;
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4vh;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.num-button:hover {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 4.5vh;
+    background: #f25f4c;
+    color: white;
+}
+
+.selected-button {
+    background: #ff8906;
+    color: white;
+}
+
+.selected-button:hover {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 4.5vh;
+    background: #ff8906;
+    color: white;
+}
+
+.submit {
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff8906;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    height: 6vh;
+    border-radius: 2.5vh;
+}
